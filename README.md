@@ -1,2 +1,57 @@
-# UVa-Better
-Enhance UVa Online Judge (onlinejudge.org) with dark mode, problem-page toolbar, uHunt statistics, sample copy, submit helper and a settings panel.
+# UVA Better
+
+> ✨ 一个为 UVa Online Judge (onlinejudge.org) 打造的现代化油猴脚本，提供深色模式、便捷工具栏、uHunt 统计、样例复制与提交辅助等增强功能。
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+
+## 📖 简介
+
+**UVA Better** 致力于改善古老且经典的 UVa OJ 的使用体验。它不仅能保护你的眼睛（深色模式），还能通过整合各种第三方工具（洛谷、vjudge、uDebug 等），大大减少你在刷题时切换页面的时间。
+
+## 🚀 安装
+
+1. 首先，请确保你的浏览器已经安装了 **[Tampermonkey（篡改猴）](https://www.tampermonkey.net/)** 扩展。
+2. 点击下方链接一键安装脚本：
+
+👉 **[点击这里安装 UVA Better 脚本](https://raw.githubusercontent.com/skyyuntgc/UVa-Better/main/UVA_Better.user.js)** 👈
+
+*(注：如果你的脚本文件名不是 `UVA_Better.user.js`，请将上方链接末尾的文件名替换为你实际的文件名。安装后，打开或刷新任意 UVa 题目页面即可生效)*
+
+## ✨ 主要功能
+
+*   🌙 **深色模式**：一键切换深色主题，保护视力，夜间刷题更舒适。
+*   🛠️ **题目页增强工具栏**：在题目顶部自动生成快捷链接，支持快速跳转至：
+    *   提交页面 / 统计页面
+    *   原题 PDF 下载
+    *   uDebug 数据 / uHunt 页面
+    *   vjudge / 洛谷 镜像
+    *   Google 翻译 (自动根据页面语言调整目标语言)
+*   📊 **uHunt 统计卡片**：直接在题目页面显示该题的 AC 人数、通过率、提交总数及各种错误类型 (WA/TLE/RE/CE) 的比例。
+*   📋 **样例一键复制**：智能识别 Sample Input / Output，添加“复制”按钮，再也不用担心复制到多余的空格和换行。
+*   💻 **提交页辅助**：
+    *   **记住语言**：自动为你选择上次提交使用的语言。
+    *   **代码模板**：支持设置默认代码模板，打开提交页面自动填入。
+    *   **防误触**：提交前弹窗二次确认。
+*   ⚙️ **可视化设置面板**：页面右下角悬浮齿轮按钮，可随时开启/关闭各项功能，支持恢复默认设置。
+*   🌐 **双语支持**：内置中文和英文界面，跟随浏览器语言自动切换，也可手动设置。
+
+## 🖼️ 界面预览
+
+*(建议在这里放上 1-2 张截图，展示你的脚本效果，比如深色模式加工具栏的样子)*
+<!-- 
+![截图1：题目页效果](图片链接)
+![截图2：设置面板](图片链接) 
+-->
+
+## ⚙️ 使用说明
+
+*   安装脚本后，访问 UVa 网站，页面右下角会出现一个 **⚙️ 齿轮按钮**，点击即可打开设置面板。
+*   你也可以点击浏览器右上角的 Tampermonkey 图标，在菜单中快速切换深色模式或打开设置。
+*   所有配置均通过 `GM_setValue` 本地保存，不会上传到任何服务器。
+
+## 📄 开源协议
+
+本项目采用 [MIT License](LICENSE) 协议开源。你可以自由地使用、修改和分发本代码，但请保留原作者信息。
+
+Copyright (c) 2026 Sky-Yun
