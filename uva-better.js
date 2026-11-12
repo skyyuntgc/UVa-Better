@@ -12,6 +12,7 @@
 // @match        http://onlinejudge.org/*
 // @match        https://uva.onlinejudge.org/*
 // @match        http://uva.onlinejudge.org/*
+// @supportURL   https://github.com/skyyuntgc/UVa-Better/issues
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_addStyle
