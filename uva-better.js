@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         UVA Better
 // @name:zh-CN   UVA Better
-// @namespace    https://github.com/uvabetter/uvabetter
+// @namespace    https://github.com/skyyuntgc/uvabetter
 // @version      1.0.1
 // @description  Enhance UVa Online Judge (onlinejudge.org) with dark mode, problem-page toolbar, uHunt statistics, sample copy, submit helper and a settings panel.
 // @description:zh-CN 增强 UVa Online Judge（onlinejudge.org）：深色模式、题目页工具栏、uHunt 统计、样例一键复制、提交辅助与设置面板。
